@@ -9,7 +9,7 @@ RUN bun install
 
 COPY . .
 
-RUN bun run build
+RUN bunx astro build
 
 EXPOSE 8080
 
